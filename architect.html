@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="architect.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <navbar class="mainnav">
+        <div class="nav">
+            <div class="first">
+            <div class="logo"><img src="logo-inverse.png"></div>    
+            <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </div>
+        <div class="middle">
+            <div class="searchbar" id="imp1">
+            <input type="text" class="text" placeholder="Type to search" id="textbar" >
+            <div class="search"><i class="fa fa-search" id="search" aria-hidden="true"></i>
+            </div>
+            <div class="cancel" id="cancelbtn"><i class="fa fa-close" ></i></div>   
+        </div>
+            <div class="menudiv" id="menudivs">   
+           <div><div class="menu" id="menudrop"><span>Mega Menu</span><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+        <div class="overviewdel" id="over">
+            <div class="inner">
+            <ul>
+                <li>Overview</li>
+                <li>Contacts</li>
+                <li>Incidents</li>
+                <li>Companies</li>
+                <li>Dashboard</li>
+            </ul>
+        </div>  
+        <div class="inner">
+            <ul>
+                <li>Favourites</li>
+                <li>Reports Conversion</li>
+                <li>Quick Start</li>
+                <li>Users & Groups</li>
+                <li>Properties</li>
+            </ul>
+        </div>    
+         <div class="inner">
+            <ul>
+                <li>Sales & Marketing</li>
+                <li>Queues</li>
+                <li>Resouce Group</li>
+                <li>Goal Metrics</li>
+                <li> Campaigns</li>
+
+            </ul>
+        </div>
+        </div>
+    </div> 
+            
+            <div>
+            <div class="setting" id="setting"><span>Setting</span><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+        <div class="overdel" id="setting1">
+            <div class="header">
+            </div>
+            <div class="content"></div>
+
+        </div>
+            </div>
+            <div><div class="project" id="project"><span>Project</span><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+            <div class="overdel" id="setting2">
+                <div class="header">
+                </div>
+                <div class="content"></div>
+    
+            </div>
+        </div>
+            </div>
+            <div class="wrapper"><i class="fa fa-circle" aria-hidden="true"></i></div>
+            <div class="notification noti"><i class="fa fa-bell" aria-hidden="true"></i>
+            </div>
+            <div class="flag" id="maindiv-flag"><img id="logoflag" src="germany.svg" ></div>
+        <div class="flag-divdel" id="flag-div">
+<div class="country">
+    <div class="header">
+        <h3>Choose Language</h3>
+    </div>
+    <div>
+        <span>POPULAR LANGUAGES</span>
+        <div class="countrybtn">
+           <ul>
+            <li><button class="usa" id="usa" onclick="fun(this.id)"><span>USA</span></button></li>
+            <li><button class="switzerland" id="swit" onclick="fun(this.id)"><span>SWITZERLAND</span></button></li>
+            <li><button class="france" id="france" onclick="fun(this.id)"><span>FRANCE</span></button></li>
+            <li><button class="spain" id="spain" onclick="fun(this.id)"><span>SPAIN</span></button></li>
+           </ul>
+        </div>
+    </div>
+
+</div>
+        </div>
+            <div class="user"><i class="fa fa-bell"></i></div>
+      <div class="border"></div>
+            </div>
+
+        <div class="profile">
+            <img class="image" src="city2.jpg">
+        </div>
+        <div class="icondrop">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </div>
+
+    <div class="profiledetail">
+        <h5>Shivam Gupta</h5>
+        <span class="manager">VP PEOPLE MANAGER</span>
+    </div>
+<div class="gift"><i class="fa fa-bell gift"></i></div>
+<div class="border giftborder"></div>
+
+<div class="menu" id="menus"><i class="fa fa-bars" aria-hidden="true"></i>
+
+</div>
+
+        </div>
+        <div class="offcanvas" id="offcanvas">
+            <div class="closebtn">
+            <button id="close1" class="close"><i class="fa fa-close" ></i></button></div>
+            </div>
+
+    </navbar>
+    <script src="architect.js"> </script>
+</body>
+</html>
